@@ -1,0 +1,16 @@
+intitle:后台
+intitle:登录
+intitle:管理
+intitle:系统
+intitle:login
+intitle:admin
+intitle:manage
+inurl:login
+inurl:auth
+inurl:admin
+inurl:manage
+inurl:member 
+inurl:register
+inurl:system
+inurl:load
+ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | extra | ext:ini | ext:log | ext:bkf | ext:bkp | ext:bak | extld | ext:backup

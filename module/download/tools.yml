@@ -1,0 +1,155 @@
+icp-domains:
+  toolname: icp-domains
+  whetherdownload: True
+  link: https://github.com/1in9e/icp-domains/archive/refs/tags/1,1.zip
+  downloadfile: icp-domains-1-1.zip
+  source_name: icp-domains-1-1/
+  final_name: icp-domains/
+  tool_main_filename: icp_domains.py
+  topath:
+    - module/tools/
+    - icp-domains/
+amass:
+  toolname: amass
+  whetherdownload: True
+  link: https://github.com/OWASP/Amass/releases/download/v3.21.2/amass_windows_amd64.zip
+  downloadfile: amass.zip
+# unzipsubfile: amass_windows_amd64
+  source_name: amass_windows_amd64/
+  final_name: amass/
+  tool_main_filename: amass.exe
+  topath:
+    - module/tools/
+    - /
+oneforall:
+  toolname: oneforall
+  whetherdownload: False
+  link:
+  downloadfile:
+  source_name:
+  final_name:
+  tool_main_filename: oneforall.py
+  topath:
+    - module/tools/OneForAll/
+    - OneForAll/
+ctfr:
+  toolname: ctfr
+  whetherdownload: False
+  link:
+  downloadfile:
+  source_name:
+  final_name:
+  tool_main_filename: ctfr.py
+  topath:
+    - module/tools/ctfr/
+    - ctfr/
+ksubdomain:
+  toolname: ksubdomain
+  whetherdownload: True
+  link: https://github.com/boy-hack/ksubdomain/releases/download/v1.9.5/KSubdomain-windows.tar
+  downloadfile: ksubdomain.tar
+  source_name: ksubdomain.exe
+  final_name: ksubdomain.exe
+  tool_main_filename: ksubdomain.exe
+  topath:
+    - module/tools/ksubdomain/
+    - ksubdomain/
+subfinder:
+  toolname: subfinder
+  whetherdownload: True
+  link: https://github.com/projectdiscovery/subfinder/releases/download/v2.5.3/subfinder_2.5.3_windows_amd64.zip
+  downloadfile: subfinder.zip
+  source_name: subfinder.exe
+  final_name: subfinder.exe
+  tool_main_filename: subfinder.exe
+  topath:
+    - module/tools/subfinder/
+    - subfinder/
+ehole:
+  toolname: ehole
+  whetherdownload: False
+  link:
+  downloadfile:
+  source_name:
+  final_name:
+  tool_main_filename:
+  topath:
+    - module/tools/Ehole/
+    - Ehole/
+httpx:
+  toolname: httpx
+  whetherdownload: True
+  link: https://github.com/projectdiscovery/httpx/releases/download/v1.2.4/httpx_1.2.4_windows_amd64.zip
+  downloadfile: httpx.zip
+  source_name: httpx.exe
+  final_name: httpx.exe
+  tool_main_filename: httpx.exe
+  topath:
+    - module/tools/httpx/
+    - httpx/
+httprobe:
+  toolname: httprobe
+  whetherdownload: True
+  link: https://github.com/tomnomnom/httprobe/releases/download/v0.2/httprobe-windows-amd64-0.2.zip
+  downloadfile: httprobe.zip
+  source_name: httprobe.exe
+  final_name: httprobe.exe
+  tool_main_filename: httprobe.exe
+  topath:
+    - module/tools/httprobe/
+    - httprobe/
+Eeyes:
+  toolname: Eeyes
+  whetherdownload: True
+  link: https://github.com/EdgeSecurityTeam/Eeyes/releases/download/1.0/Eeyes-windows.zip
+  downloadfile: Eeyes.zip
+  source_name: Eeyes.exe
+  final_name: Eeyes.exe
+  tool_main_filename: Eeyes.exe
+  topath:
+    - module/tools/Eeyes/
+    - Eeyes/
+fcdn:
+  toolname: fcdn
+  whetherdownload: False
+  link:
+  downloadfile:
+  source_name:
+  final_name:
+  tool_main_filename: fcdn.py
+  topath:
+    - module/tools/fcdn/
+    - fcdn/
+TxPortMap:
+  toolname: TxPortMap
+  whetherdownload: True
+  link: https://github.com/4dogs-cn/TXPortMap/releases/download/v1.1.2/TxPortMap_windows_x64.exe
+  downloadfile: TxPortMap.exe
+  source_name: TxPortMap.exe
+  final_name: TxPortMap.exe
+  tool_main_filename: TxPortMap.exe
+  topath:
+    - module/tools/TxPortMap/
+    - TxPortMap/
+pagodo:
+  toolname: pagodo
+  whetherdownload: False
+  link:
+  downloadfile:
+  source_name:
+  final_name:
+  tool_main_filename: pagodo.py
+  topath:
+    - module/tools/sensitiveinfo_tools/Google/pagodo/
+    - pagodo/
+gitdorks_go:
+  toolname: gitdorks_go
+  whetherdownload: False
+  link:
+  downloadfile:
+  source_name:
+  final_name:
+  tool_main_filename: gitdorks_go.exe
+  topath:
+    - module/tools/sensitiveinfo_tools/Github/gitdorks_go/
+    - gitdorks_go/
