@@ -155,6 +155,7 @@ def final_subdomain(domain=None,date=None):
         f2.write("\n".join(map(str,other_subdomains_list)))
     logger.info(f'[+] Finally, find subdomains number: {len(subdomains)}')
     logger.info(f'[+] Finally, find subdomains outputfile: result/{date}/{domain}.final.subdomains.txt')
+    subdomains = [] #subdomains重新置空
 
 
 @logger.catch
