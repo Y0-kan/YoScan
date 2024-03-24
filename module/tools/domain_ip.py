@@ -109,6 +109,9 @@ def DomainToIp(domain,date):
         f.write('\n'.join(map(str, real_ip)))
     logger.info(f'[+] Finally, find real_ip number: {len(real_ip)}')
     logger.info(f'[+] Finally, find real_ip outputfile: result/{date}/{domain}.nocdn.real_ip.txt')
+    
+    nocdn_domain = [] 
+    real_ip = [] 
 
 
 @logger.catch()
