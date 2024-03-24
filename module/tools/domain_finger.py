@@ -127,6 +127,8 @@ def final_subdomain(domain=None,date=None):
         f1.write("\n".join(map(str,alive_web_url)))
     logger.info(f'[+] Finally, find alive web number: {len(alive_web_url)}')
     logger.info(f'[+] Finally, find alive web outputfile: result/{date}/{domain}.alive.web.txt')
+    
+    alive_web_url = []
 
 
 @logger.catch
